@@ -1,5 +1,5 @@
-# npm test
-# npm run lint
+npm test
+npm run lint
 
 
 echo '🏗️👷 Styling, testing and building your project before committing'
