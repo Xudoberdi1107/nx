@@ -1,7 +1,7 @@
 node_modules
 
 .github
-.gitibnore
+.gitignore
 
 .husky
 
@@ -9,8 +9,9 @@ node_modules
 .vscode
 
 .editorconfig
+
 .eslintignore
 .eslintrc.json
 
 .prettierignore
-.prettierre
+.prettierrc
