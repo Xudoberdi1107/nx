@@ -1,1 +1,16 @@
 node_modules
+
+.github
+.gitibnore
+
+.husky
+
+.nx
+.vscode
+
+.editorconfig
+.eslintignore
+.eslintrc.json
+
+.prettierignore
+.prettierre
