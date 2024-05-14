@@ -15,3 +15,10 @@ node_modules
 
 .prettierignore
 .prettierrc
+
+appps/dashboard/.eslintrc.json
+appps/dashboard/src/assets/.gitkeep
+
+appps/production/.eslintrc.json
+
+appps/production/public/.gitkeep
