@@ -8,10 +8,14 @@
     "lint": "eslint",
     "check-types": "tsc --pretty --noEmit",
     "check-format": "prettier --check .",
-    "check-lint": "eslint '**/*.{js,jsx,ts,tsx}' --ignore-path .eslintignore",
+    "check-lint": "eslint '**/*.{js,jsx,ts,tsx}' --ignore-pattern '!.*'",
     "format": "prettier --write .",
     "test-all": "npm run check-format && npm run check-lint && npm run check-types && npm run build"
   },
+  "eslintIgnore": [
+    "node_modules",
+    "dist"
+  ],
   "private": true,
   "husky": {
     "hooks": {
