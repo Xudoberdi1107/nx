@@ -5,5 +5,23 @@
   "projectType": "application",
   "tags": [],
   "// targets": "to see all targets run: nx show project production --web",
-  "targets": {}
+  "targets": {
+    "serve": {
+      "executor": "@nx/vite:dev-server",
+      "defaultConfiguration": "development",
+      "options": {
+        "buildTarget": "user-dashboard:build"
+      },
+      "configurations": {
+        "development": {
+          "buildTarget": "user-dashboard:build:development",
+          "hmr": true
+        },
+        "production": {
+          "buildTarget": "user-dashboard:build:production",
+          "hmr": false
+        }
+      }
+    }
+  }
 }

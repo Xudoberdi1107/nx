@@ -6,7 +6,7 @@
     "start": "nx serve",
     "test": "husky",
     "lint": "eslint",
-    "check-types": "tsc --pretty --noEmit",
+    "check-types": "tsc --pretty --noEmit -p tsconfig.base.json",
     "check-format": "prettier --check .",
     "check-lint": "eslint ",
     "format": "prettier --write .",
